@@ -1,0 +1,104 @@
+.signup-frm{
+    width:355px
+}
+.step-nbr{
+    font-size: 10px;
+    font-weight: 600;
+    color:#b5b5b5;
+}
+.signup-guid{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 6px !important;
+    font-size: 15px;
+}
+.login_icon-signup{
+    padding-bottom: 1rem;
+}
+
+
+.agre-conti{
+    background-color: #f16219;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: 0.5rem;
+}
+.agre-conti:hover{
+    color: #ff5900;
+    background-color: #1d2630;
+}
+
+.firstName-field{
+    width:48%;
+    color: white;
+    border: none;
+    background-color: #1d2630;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.firstName-field::placeholder{
+display:flex;
+align-items: center;
+font-size: 12px;
+font-weight: 600;
+}
+.company-field{
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    background-color: #1d2630;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.company-field::placeholder{
+    display:flex;
+align-items: center;
+font-size: 12px;
+font-weight: 600;
+}
+.term-to-accpt{
+    font-size: 15px !important;
+    color: white;
+}
+
+.agree-continu-signup{
+    margin-top: 0.5rem;
+}
+.agree-continu{
+   
+    margin-top: 1.2rem;
+    
+   
+}
+.emailsignup-field{
+    background-color: #1d2630;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.policy-lnk:hover{
+    color:#f16219;
+
+}
+
+.passwordsignup-field{
+    background-color: #1d2630;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    color:white
+}
+ /* .details-dv{
+      display:none; 
+} 
+ .email-dv{
+       display:none; 
+} 
+  .password-dv{
+      display:none; 
+}   */

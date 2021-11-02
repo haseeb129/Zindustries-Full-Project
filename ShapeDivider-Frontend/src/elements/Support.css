@@ -1,0 +1,79 @@
+.page-strt {
+  background-image: url("../Assets/images/integimg/support.png");
+}
+.fnd-yrproject {
+  background-image: url("../Assets//images/integimg/comparison-bg.png");
+}
+.underlin-headr {
+  height: 1.5px;
+  background-color: white;
+  width: 100%;
+}
+.supprt-strt-p {
+  color: white;
+  font-size: 1.3rem;
+}
+.supprt-strt-p2 {
+  color: #ff5900;
+  font-size: 1.3rem;
+}
+.topics-div {
+  background-color: #fbf7f4;
+  padding-left: 1rem;
+  border: 2px solid #f1e1d4;
+  border-radius: 10px;
+  display: flex;
+}
+.topics-div-icn {
+  font-size: 4em;
+  color: #ff5900;
+}
+.topics-div-cnt {
+  font-size: 1.3em;
+  padding-left: 1rem;
+  line-height: 20px;
+}
+.h3cnt {
+  color: #ff5900;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.searchbar-frm {
+  display: flex;
+}
+.abutzplugin {
+  margin-bottom: 0px;
+  font-size: 35px;
+}
+
+.searchfield {
+  background-color: whitesmoke;
+  width: 400px;
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+}
+.search-btn {
+  background-color: #ff5900;
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .underlin-headr {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .searchfield {
+    width: 250px;
+  }
+  .h3cnt {
+    font-size: 25px;
+  }
+  .abutzplugin {
+    font-size: 27px;
+  }
+  .page-strt {
+    height: 300px;
+  }
+}

@@ -1,0 +1,105 @@
+.login-wg-btn {
+  height: 50px;
+  width: 350px;
+  font-size: 1.2rem;
+  text-transform: none;
+}
+.login_icon {
+  height: 6%;
+}
+.dnt-accont {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.form-contain {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 385px;
+  background-color: white;
+    border-radius: 10px;
+}
+.inpt-field {
+  width: 48%;
+}
+.inpt-field1 {
+  width: 100%;
+}
+.signup-g {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.login-wraper {
+  height: 100%;
+}
+.titl-log {
+  font-size: 2.5rem;
+  color: orange;
+}
+.card-break-d {
+  padding: 0.5rem;
+}
+ .signupform {
+  width:350px;
+} 
+.signup-terms {
+  font-size: 0.9rem;
+}
+.signupD{
+  background-color: #d1d1d1;
+  color: #9b9b9b;
+  width: 98px;
+  height: 45px;
+  border-radius: 8px;
+   
+}
+ .signupE{
+   border-radius: 8px;
+   background-color:#ff7900;
+   width: 98px; height: 45px;
+  
+}
+ 
+
+
+
+@media only screen and (max-width: 992px) {
+  .sideimage {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .inpt-field {
+    width: 145px;
+  }
+  .inpt-field1 {
+    width: 300px;
+  }
+  .form-contain {
+    width: 320px;
+  }
+  .flname {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+  .signup-terms {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .signupform {
+    /* height: 40%; */
+  }
+}
+
+.alertText {
+  color: red;
+  /* text-align: left; */
+  font-size: 13px !important;
+}
+.alertTextSelection {
+  margin-top: 10px;
+  color: red;
+  text-align: left;
+  font-size: 13px !important;
+}

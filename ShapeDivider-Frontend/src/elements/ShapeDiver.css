@@ -1,0 +1,89 @@
+::-webkit-scrollbar {
+  display: none;
+}
+.sdview {
+  height: 88%;
+  background-color: lightgray;
+}
+
+.parameters-bg {
+  background-color: lightgray;
+  height: 85vh;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.singleBox {
+  text-align: Center;
+  padding: 30px;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  width: 100%;
+  height: 135px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: auto;
+  /* box-shadow: 3px 5px black;
+    border: 2px solid black; */
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.singleBox:hover {
+  /* border: 2px solid blueviolet; */
+  box-shadow: 3px 3px 3px 3px gray;
+
+  transform: translateX(1px);
+  border: 1px solid black;
+}
+.centered {
+  justify-content: center;
+  display: flex;
+}
+.downloadButton {
+  width: 250px;
+  height: 45px !important;
+  color: black;
+  border: 2px solid lightgray !important;
+  background-color: transparent !important;
+  border-radius: 5px;
+}
+.downloadButton:hover {
+  background-color: none !important;
+  color: black !important;
+  border: 2px solid lightgray !important;
+}
+.editBlock {
+  padding: 10px;
+  /* border-radius: 10px; */
+  background-color: white;
+  height: 120px;
+  /* box-shadow: 3px 5px black; */
+}
+#sdv-container-viewport-canvas {
+  width: 100% !important;
+}
+
+.text-center {
+  /* font-size: 2rem !important; */
+  font-weight: normal !important;
+  margin-top: 10px;
+  margin-bottom: 0.5rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .sdview {
+    background-color: transparent;
+  }
+}
+
+.backButton {
+  background-color: #ffa500;
+  border-color: #ffa500;
+  color: white;
+}
+
+.backButton:hover {
+  background-color: #f4a005;
+  border-color: #f4a005;
+}

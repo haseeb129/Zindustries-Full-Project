@@ -1,0 +1,19 @@
+.profilP {
+  padding: 2rem 2.5rem 9rem 9rem;
+}
+.usesz {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Poppins;
+  color: #ff5900;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profilP {
+    padding: 2rem 2.5rem 3rem 0rem;
+  }
+  .usesz {
+    font-size: 30px;
+  }
+}

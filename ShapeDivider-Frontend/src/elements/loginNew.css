@@ -1,0 +1,93 @@
+.login-guide{
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: white;
+    font-size: 15px !important;
+}
+.loginp_icon{
+    padding-bottom: 1.5rem;
+}
+.email-field{
+    width:100%;
+    color: white;
+    border: none;
+    background-color: #1d2630;
+    border-radius: 8px;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.error-msg{
+    color: red;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+.email-field::placeholder{
+    
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.login-cont-btn{
+    background-color: #ff7128;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    color: white;
+    font-weight: 600;
+    border:none;
+
+}
+.login-cont-btn:hover{
+    background-color: #1d2630;
+    color:#ff5900
+}
+.signup-lnk{
+    color: #ff5900 !important;
+    font-weight: 500;
+    font-size: 15px !important;
+
+}
+/* .signup-lnk:hover{
+    color:#ff5700 !important;
+} */
+.signup-dr-lnk{
+    margin-top: 1rem;
+    color:white;
+    font-size: 15px !important;
+}
+/* .password-prt{
+     display:none;
+}
+/* .email-prt{
+    display:none;
+} */ 
+.password-field{
+    width:100%;
+    color: white;
+    border: none;
+    background-color: #1d2630;
+    border-radius: 8px;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+.login-dividr{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.password-field::placeholder{
+    
+    font-size: 12px;
+    font-weight: 600;}
+
+ .accept-terms-txt{
+    color: white;
+    font-weight: normal;
+    font-size: 11px;
+ }   
+ .pripolicy-lnk{
+    color: #ff5900;
+    cursor:pointer
+ }

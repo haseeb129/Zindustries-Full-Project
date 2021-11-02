@@ -1,0 +1,268 @@
+.modalpic {
+  width: 70rem;
+
+  z-index: 1;
+}
+.title {
+  color: #ff5900;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.enabl-p {
+  margin-bottom: 1px;
+}
+.disabl-p {
+  margin-bottom: 1px;
+}
+.disabl-pt {
+  color: #d3d3d3;
+}
+.plan-btn-d {
+  padding-top: 2rem;
+}
+.portfolio-area {
+  margin-top: -2rem;
+}
+.favorit-tp {
+  padding: 0px 10px;
+}
+.trail-stat-p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.deal-contain {
+  padding-top: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 5px #dcdbdb;
+}
+.plan-buttn2 {
+  background-color: #ff5900;
+  padding: 0.9rem 1.8rem;
+  border-radius: 40px;
+  font-size: 20px;
+  color: white;
+  min-width: 100px;
+}
+.plan-buttn2:hover {
+  background-color: black;
+  color: #ff5900;
+}
+.disc-buttntrial:hover {
+  background-color: black;
+  color: #ff5900;
+}
+.disc-buttnexport:hover {
+  color: rgb(66, 66, 66);
+}
+
+.plan-buttn {
+  background-color: #179dc7;
+
+  padding: 0.9rem 1.8rem;
+  border-radius: 40px;
+  color: white;
+}
+.aboutus-btn-hm {
+  background-color: black;
+
+  padding: 1.1rem 1.8rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+}
+.aboutus-btn-hm:hover {
+  
+  color: #ff5900;
+}
+.disc-buttntrial {
+  background-color: #ff5900;
+
+  padding: 0.7rem 2.8rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+}
+.disc-buttnexport {
+  padding: 0.6rem 2.5rem;
+  border-radius: 50px;
+  color: rgb(149 146 146);
+  font-size: 1.5rem;
+  border: 2px solid gray;
+}
+.integrat-clumn {
+  padding-top: 1rem;
+}
+.integrat-crd {
+  background-color: #eaeaea;
+  border-radius: 10px;
+}
+.browse-catlg {
+  background-color: #ff5900;
+
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+}
+.browse-catlg:hover {
+  background-color: black;
+  color: #ff5900;
+}
+
+.browse-catlg1 {
+  background-color: #ff5900;
+
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+}
+.browse-catlg1:hover {
+  background-color: black;
+  color: #ff5900;
+}
+.available-integrat {
+  padding: 0.6rem 2.5rem;
+  border-radius: 50px;
+  color: #ff5900;
+  font-size: 1.3rem;
+  border: 3px solid #ff5900;
+}
+.usage-require {
+  background-color: #fbfbfb;
+}
+.req-items {
+  display: flex;
+}
+.items-t {
+  font-size: 24px;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+  line-height: 30px;
+}
+.page-effect {
+  text-align: center;
+  background-image: url("../Assets/images/integimg/homeimg1.png");
+  /* background: linear-gradient(#e3631e, #efab2e); */
+  background: linear-gradient(to right, #673005, #de6628, #8e3616);
+}
+
+.no-signup {
+  color: white;
+  font-weight: 500;
+}
+
+.strt-design-bttn {
+  color: #ff5900;
+  font-size: 22px;
+  font-weight: 500;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+}
+.strt-design-bttn:hover {
+  background-color: black;
+}
+.strt-designbttn {
+  padding-bottom: 1rem;
+}
+.page-p {
+  color: white;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.page-p2 {
+  padding-top: 1rem;
+  margin-bottom: 0px;
+  font-size: 46px;
+}
+.dicoverZ {
+  font-size: 30px;
+  font-weight: 600;
+}
+.signonlybtn {
+  text-align: center;
+  cursor:pointer;
+  float: right;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.bckstyle {
+  background-color: #236323;
+  border-radius: 20px;
+  padding: 4px 22px;
+}
+
+/* .bgs {
+  background-image: url("../Assets/images/integimg/homeimg1.png"),
+    url("../Assets/images/integimg/homeimg2.png"),
+    url("../Assets/images/integimg/homeimg3.png");
+} */
+.childclass{
+  max-height: 4rem;
+}
+.bg1 {
+  width: 2200px;
+  height: 950px;
+  background: url("../Assets/images/integimg/homeimg1.png") no-repeat center center;
+
+
+}
+
+.bg2 {
+  width: 2200px;
+  height: 950px;
+  background: url("../Assets/images/integimg/homeimg2.png") no-repeat center center ;
+}
+
+.bg3 {
+  width: 2200px;
+  height: 950px;
+  background: url("../Assets/images/integimg/homeimg3.png")  no-repeat center center;
+
+}
+.page-effect{
+  height: 900px;
+  left: -200px;
+  top: -100px;
+  width: 2200px;
+}
+.bgs{
+  position: relative;
+  top: -56rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .available-integrat {
+    padding: 0.2rem 0.5rem;
+  }
+  .page-p,
+  .page-p2 {
+    font-size: 26px;
+  }
+  .disc-buttntrial {
+    font-size: 1.4rem;
+  }
+  .aboutus-btn-hm {
+    padding: 0.6rem 1rem;
+  }
+  .browse-catlg1 {
+    font-size: 1rem;
+  }
+  .dicoverZ {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .signforOnly {
+    display: none;
+  }
+}

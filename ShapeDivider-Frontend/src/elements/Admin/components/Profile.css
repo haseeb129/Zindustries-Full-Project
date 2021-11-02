@@ -1,0 +1,84 @@
+.adTable,
+.adTable-th {
+  font-family: Helvetica;
+padding: 0rem 1rem;
+  font-size: 14px;
+  color: black;
+}
+.adTable {
+  width: 100%;
+  border-spacing: 10px;
+}
+.adTable-td {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Helvetica;
+  color: black;
+  padding-left: 1rem;
+}
+.adTable-tdR {
+  font-size: 13px;
+  font-weight: 500;
+  color: #F65959;
+}
+
+.adTable-tdO {
+  color: #FA8600;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.adTable-tdG {
+  color: #6DD400;
+  font-size: 13px;
+  font-weight: 500;
+}
+.adTable-tr {
+  height: 48px;
+}
+/* .tablecontain {
+  min-width: 370px;
+  overflow: auto;
+} */
+.tabled {
+  width: "100%";
+  overflow: auto;
+}
+.tablecontain{
+    padding: 1rem 1rem;
+    
+    
+}
+.search-fild-dv{
+  padding-top: 1rem;
+  display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.search-fild{
+  border: 1px solid lightgrey;
+    width: 250px;
+    border-radius: 30px;
+    padding: 0px 10px;
+    display:flex;
+    align-items: center;
+    height: 38px;
+}
+.profile-search-inpt::placeholder{
+  color:#afabab;
+}
+.profile-search-inpt{
+  width:230px;
+  border: none;
+  color: black;
+  padding: 0px 10px !important;
+}
+@media only screen and (max-width: 1400px) {
+  .profiles-tble-wrap{
+    width:1321px
+  }
+  .search-fild-dv{
+    justify-content: flex-start;
+  }
+}
